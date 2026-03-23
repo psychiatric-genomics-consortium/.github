@@ -8,15 +8,20 @@ The Psychiatric Genomics Consortium is one of the most innovative experiments in
 ## Software and Resources
 The PGC has attracted a cadre of outstanding scientists whose careers center on our work. Many of those researchers have used our data to develop valuable tools for understanding psychiatric genomics, often with important applications in complex trait genetics more generally. We have gathered repositories for such software within our GitHub, and provide descriptions for each below:
 
+### CC-GWAS 
+#### Development lead: Wouter Peyrot
+#### [Original GitHub](https://github.com/wouterpeyrot/CCGWAS) | [PGC repo version](https://github.com/psychiatric-genomics-consortium/CCGWAS) | [Paper](https://pubmed.ncbi.nlm.nih.gov/33686288/)
+
+CC-GWAS is an R package for case-case association testing of two different disorders based on their respective case-control GWAS results. 
+
+----
+
 TODO
 ### CC-GWAS 
 #### Development lead: Wouter Peyrot
+#### [Original GitHub](https://github.com/wouterpeyrot/CCGWAS) | [PGC repo version](https://github.com/psychiatric-genomics-consortium/CCGWAS) | [Paper](https://pubmed.ncbi.nlm.nih.gov/33686288/)
 
-#### [Original GitHub](https://github.com/mkoromina/SAFFARI) 
-#### [PGC repo version](https://github.com/psychiatric-genomics-consortium/SAFFARI)
-#### [Paper](https://www.nature.com/articles/s41593-025-01998-z)
-
-SAFFARI is a Snakemake pipeline that implements four different individual variant fine-mapping methods (SuSiE, FINEMAP, PolyFun+SuSiE, PolyFun+FINEMAP). It supports large-scale processing of multiple traits and loci using UK Biobank LD panels and user-specified annotations.
+CC-GWAS is an R package for case-case association testing of two different disorders based on their respective case-control GWAS results. 
 TODO
 
 ### GenomicSEM 
@@ -69,13 +74,19 @@ Tractor-Mix extends Tractor to a mixed-model implementation, allowing analyses t
 
 ### PGC MDD3
 #### The paper: ["Trans-ancestry genome-wide study of depression identifies 697 associations implicating cell types and pharmacotherapies"](https://pubmed.ncbi.nlm.nih.gov/39814019/)
-[Public repo](https://github.com/psychiatric-genomics-consortium/mdd-wave3-meta)
+#### [Public repo](https://github.com/psychiatric-genomics-consortium/mdd-wave3-meta)
 
 ----
 
 ### Genetic structure of depressive symptoms
 #### The paper: ["Genome-wide meta-analysis of ascertainment and symptom structures of major depression in case-enriched and community cohorts"](https://doi.org/10.1017/S0033291724001880)
-[Public repo](https://github.com/psychiatric-genomics-consortium/mdd-symptom-gwas)
+#### [Public repo](https://github.com/psychiatric-genomics-consortium/mdd-symptom-gwas)
+
+----
+
+### Methylome-wide association analysis of major depression
+#### The paper: ["A methylome-wide association study of major depression with out-of-sample case–control classification and trans-ancestry comparison"](https://www.nature.com/articles/s44220-025-00486-4)
+#### [Public repo](https://github.com/psychiatric-genomics-consortium/mdd-mwas)
 
 ## Contact
 If you would like additional software to be added to this GitHub, or modifications to be made to this README, please contact [JoniColeman](https://github.com/JoniColeman)
