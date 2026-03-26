@@ -8,27 +8,43 @@ The Psychiatric Genomics Consortium is one of the most innovative experiments in
 ## Software and Resources
 The PGC has attracted a cadre of outstanding scientists whose careers center on our work. Many of those researchers have used our data to develop valuable tools for understanding psychiatric genomics, often with important applications in complex trait genetics more generally. We have gathered repositories for such software within our GitHub, and provide descriptions for each below:
 
-### CC-GWAS 
-#### Development lead: Wouter Peyrot
-#### [Original GitHub](https://github.com/wouterpeyrot/CCGWAS) | [PGC repo version](https://github.com/psychiatric-genomics-consortium/CCGWAS) | [Paper](https://pubmed.ncbi.nlm.nih.gov/33686288/)
+### BPC
+#### Development lead: Emil Uffelmann
+#### [Original GitHub](https://github.com/euffelmann/bpc) | [PGC repo version](https://github.com/psychiatric-genomics-consortium/bpc) | [Paper](https://pubmed.ncbi.nlm.nih.gov/41006251/)
 
-CC-GWAS is an R package for case-case association testing of two different disorders based on their respective case-control GWAS results. 
+BPC (Bayesian polygenic score Probability Conversion) computes an individual's predicted disorder probability from Bayesian PGS methods (e.g. PRScs below) and a prior disorder probability. 
 
 ----
 
-TODO
 ### CC-GWAS 
 #### Development lead: Wouter Peyrot
 #### [Original GitHub](https://github.com/wouterpeyrot/CCGWAS) | [PGC repo version](https://github.com/psychiatric-genomics-consortium/CCGWAS) | [Paper](https://pubmed.ncbi.nlm.nih.gov/33686288/)
 
-CC-GWAS is an R package for case-case association testing of two different disorders based on their respective case-control GWAS results. 
-TODO
+CC-GWAS (Case-case GWAS) is an R package for case-case association testing of two different disorders based on their respective case-control GWAS results. 
+
+----
+
+### DDx-PRS 
+#### Development lead: Wouter Peyrot
+#### [Original GitHub](https://github.com/wouterpeyrot/DDxPRS) | [PGC repo version](https://github.com/psychiatric-genomics-consortium/DDxPRS) | [Preprint](https://www.medrxiv.org/content/10.1101/2024.02.02.24302228)
+
+DDx-PRS (Differential Diagnosis-Polygenic Risk Score) is an R package for distinguishing clinically related disorders by jointly estimating posterior probabilities for each possible diagnostic category. 
+
+----
 
 ### GenomicSEM 
 #### Development lead: Andrew Grotzinger, Michel Nivard
 #### [Original GitHub](https://github.com/GenomicSEM/GenomicSEM) | [PGC repo version](https://github.com/psychiatric-genomics-consortium/GenomicSEM) | [Paper](https://pubmed.ncbi.nlm.nih.gov/30962613/)
 
 GenomicSEM is an R-package for fitting user-defined structural equation models to genetic overlap inferred from GWAS summary statistics. Example models that can be run include those with latent factors statistically defined to index shared signal across multiple traits or multiple regression models that estimate partial genetic effects of correlated predictors. Extensions allow for estimating functional enrichment (Stratified Genomic SEM), effects of genetic variants (multivariate GWAS), or associations with imputed gene expression from TWAS (T-SEM) in the model. 
+
+----
+
+### GDIS 
+#### Development lead: Anaïs Thijssen
+#### [Original GitHub](https://github.com/ABThijssen/GDIS) | [PGC repo version](https://github.com/psychiatric-genomics-consortium/GDIS) | [Preprint](https://www.medrxiv.org/content/10.1101/2025.11.18.25340484)
+
+GDIS (Genetic DIstance of disorder Subtypes) is an R-package that provides meaningful, generalisable genetic distance metrics between subtypes of a disorder.
 
 ----
 
