@@ -9,6 +9,7 @@ We unite over **800 investigators** across **36 countries**, working with data f
 ---
 
 # 🧰 Software & Resources
+The PGC has attracted a cadre of outstanding scientists whose careers center on our work. Many of those researchers have used our data to develop valuable tools for understanding psychiatric genomics, often with important applications in complex trait genetics more generally. We have gathered repositories for such software within our GitHub, and provide descriptions for each below:
 
 ---
 
@@ -22,7 +23,7 @@ We unite over **800 investigators** across **36 countries**, working with data f
 **Development lead:** Emil Uffelmann  
 🔗 [Original GitHub](https://github.com/euffelmann/bpc) • [PGC repo](https://github.com/psychiatric-genomics-consortium/bpc) • [Paper](https://pubmed.ncbi.nlm.nih.gov/41006251/)
 
-BPC computes an individual's predicted disorder probability from Bayesian PGS methods (e.g., PRScs) and a prior disorder probability.
+BPC (Bayesian polygenic score Probability Conversion) computes an individual's predicted disorder probability from Bayesian PGS methods (e.g. PRScs below) and a prior disorder probability. 
 
 </details>
 
@@ -34,7 +35,7 @@ BPC computes an individual's predicted disorder probability from Bayesian PGS me
 **Development lead:** Wouter Peyrot  
 🔗 [Original GitHub](https://github.com/wouterpeyrot/CCGWAS) • [PGC repo](https://github.com/psychiatric-genomics-consortium/CCGWAS) • [Paper](https://pubmed.ncbi.nlm.nih.gov/33686288/)
 
-R package for case–case association testing between two disorders based on their case–control GWAS results.
+CC-GWAS (Case-case GWAS) is an R package for case-case association testing of two different disorders based on their respective case-control GWAS results.
 
 </details>
 
@@ -46,7 +47,7 @@ R package for case–case association testing between two disorders based on the
 **Development lead:** Wouter Peyrot  
 🔗 [Original GitHub](https://github.com/wouterpeyrot/DDxPRS) • [PGC repo](https://github.com/psychiatric-genomics-consortium/DDxPRS) • [Preprint](https://www.medrxiv.org/content/10.1101/2024.02.02.24302228)
 
-R package estimating posterior probabilities across diagnostic categories to support differential diagnosis.
+DDx-PRS (Differential Diagnosis-Polygenic Risk Score) is an R package for distinguishing clinically related disorders by jointly estimating posterior probabilities for each possible diagnostic category. 
 
 </details>
 
@@ -58,7 +59,7 @@ R package estimating posterior probabilities across diagnostic categories to sup
 **Development leads:** Andrew Grotzinger, Michel Nivard  
 🔗 [Original GitHub](https://github.com/GenomicSEM/GenomicSEM) • [PGC repo](https://github.com/psychiatric-genomics-consortium/GenomicSEM) • [Paper](https://pubmed.ncbi.nlm.nih.gov/30962613/)
 
-R package for fitting SEMs to GWAS-based genetic covariance structures. Supports latent factors, multivariate GWAS, enrichment analyses, and TWAS integration.
+GenomicSEM is an R-package for fitting user-defined structural equation models to genetic overlap inferred from GWAS summary statistics. Example models that can be run include those with latent factors statistically defined to index shared signal across multiple traits or multiple regression models that estimate partial genetic effects of correlated predictors. Extensions allow for estimating functional enrichment (Stratified Genomic SEM), effects of genetic variants (multivariate GWAS), or associations with imputed gene expression from TWAS (T-SEM) in the model.
 
 </details>
 
@@ -70,7 +71,7 @@ R package for fitting SEMs to GWAS-based genetic covariance structures. Supports
 **Development lead:** Anaïs Thijssen  
 🔗 [Original GitHub](https://github.com/ABThijssen/GDIS) • [PGC repo](https://github.com/psychiatric-genomics-consortium/GDIS) • [Preprint](https://www.medrxiv.org/content/10.1101/2025.11.18.25340484)
 
-Provides meaningful, generalisable genetic distance metrics between disorder subtypes.
+GDIS (Genetic DIstance of disorder Subtypes) is an R-package that provides meaningful, generalisable genetic distance metrics between subtypes of a disorder.
 
 </details>
 
@@ -82,7 +83,7 @@ Provides meaningful, generalisable genetic distance metrics between disorder sub
 **Development lead:** Tian Ge  
 🔗 [Original GitHub](https://github.com/getian107/PRScs) • [PGC repo](https://github.com/psychiatric-genomics-consortium/PRScs) • [Paper](https://www.nature.com/articles/s41467-019-09718-5)
 
-Python tool generating PGS weights under continuous‑shrinkage priors.
+PRS-CS is a Python-based command line tool that provides weights for polygenic risk scores through inferring posterior SNP effect sizes under continuous shrinkage (CS) priors using GWAS summary statistics and an external LD reference panel.
 
 </details>
 
@@ -94,7 +95,7 @@ Python tool generating PGS weights under continuous‑shrinkage priors.
 **Development lead:** Tian Ge  
 🔗 [Original GitHub](https://github.com/getian107/PRScsx) • [PGC repo](https://github.com/psychiatric-genomics-consortium/PRScsx) • [Paper](https://pmc.ncbi.nlm.nih.gov/articles/PMC9117455/)
 
-Extends PRS‑CS to integrate summary statistics across ancestries.
+PRS-CSx extends PRS-CS to integrate GWAS summary statistics and external LD reference panels from multiple populations to improve cross-population polygenic prediction. 
 
 </details>
 
@@ -106,7 +107,7 @@ Extends PRS‑CS to integrate summary statistics across ancestries.
 **Development lead:** Maria Koromina  
 🔗 [Original GitHub](https://github.com/mkoromina/SAFFARI) • [PGC repo](https://github.com/psychiatric-genomics-consortium/SAFFARI) • [Paper](https://www.nature.com/articles/s41593-025-01998-z)
 
-Snakemake pipeline implementing SuSiE, FINEMAP, and PolyFun‑based fine‑mapping approaches.
+SAFFARI is a Snakemake pipeline that implements four different individual variant fine-mapping methods (SuSiE, FINEMAP, PolyFun+SuSiE, PolyFun+FINEMAP). It supports large-scale processing of multiple traits and loci using UK Biobank LD panels and user-specified annotations.
 
 </details>
 
@@ -119,7 +120,7 @@ Snakemake pipeline implementing SuSiE, FINEMAP, and PolyFun‑based fine‑mappi
 🔗 [Original GitHub](https://github.com/Atkinson-Lab/TractorWorkflow) • [PGC repo](https://github.com/psychiatric-genomics-consortium/TractorWorkflow)  
 📄 [Paper](https://pubmed.ncbi.nlm.nih.gov/33462486/) • [Preprint](https://www.biorxiv.org/content/10.1101/2025.09.02.673402) • [Tutorial](https://atkinson-lab.github.io/Tractor-tutorial/)
 
-Method and workflow for ancestry‑aware GWAS in admixed populations.
+Tractor is a method for local-ancestry aware genome-wide association studies, facilitating variant discovery in admixed populations. A WorkFlow pipeline is available, allowing implementation of the approach without the need for advanced bioinformatic expertise.
 
 </details>
 
@@ -131,7 +132,7 @@ Method and workflow for ancestry‑aware GWAS in admixed populations.
 **Development lead:** Elizabeth Atkinson  
 🔗 [Original GitHub](https://github.com/Atkinson-Lab/Tractor-Mix) • [PGC repo](https://github.com/psychiatric-genomics-consortium/Tractor-Mix) • [Preprint](https://www.medrxiv.org/content/10.1101/2025.05.27.25328444)
 
-Mixed‑model implementation of Tractor supporting related individuals.
+Tractor-Mix extends Tractor to a mixed-model implementation, allowing analyses to be conducted using data from related indivduals.
 
 </details>
 
